@@ -1,0 +1,29 @@
+.env
+*.sqlite3
+*.sqlite3-journal
+__pycache__/
+.pytest_cache/
+.venv/
+node_modules/
+
+# Local test/backup and user-uploaded media
+.avora_backup_*/
+static/user-media/
+*.log
+
+# Local payment proof files, editor settings and temporary exports
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+evidence/
+.idea/
+.vscode/
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
+.DS_Store

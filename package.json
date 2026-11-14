@@ -1,0 +1,17 @@
+{
+  "name": "avora-near-wallet-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional user-controlled NEAR testnet wallet connector for AVORA",
+  "scripts": {
+    "build:wallet": "node build-wallet.mjs"
+  },
+  "dependencies": {
+    "@near-wallet-selector/core": "^10.1.4",
+    "@near-wallet-selector/meteor-wallet": "^10.1.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "esbuild-plugins-node-modules-polyfill": "^1.7.1"
+  }
+}

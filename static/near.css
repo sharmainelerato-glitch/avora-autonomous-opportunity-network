@@ -1,0 +1,90 @@
+/* AVORA — spacious editorial, neutral canvas / deep pine / lime accents. No external font requests. */
+:root{--plum:#153e35;--wine:#246050;--gold:#d6f18f;--ink:#19352e;--muted:#697b72;--cream:#f5f6f1;--line:#dce4dc;--paper:#fff;--shadow:0 22px 64px rgba(17,57,42,.07);font-family:'Segoe UI',Inter,system-ui,sans-serif;background:var(--cream)}
+.top{background:#fbfcf8;border-bottom-color:#e2e9dd}.brand{letter-spacing:-.07em;font-weight:900;color:#153e35}.nav a:hover,.nav a.active{color:#1d6948}.btn{border-radius:12px}.btn:not(.outline):not(.ghost){background:#164d3c;color:#fff}.btn.gold{background:#d6f18f;color:#153e35}.hero{background:linear-gradient(117deg,#e6eddc,#f7faf1 62%,#cddfce);border:1px solid #d8e5d7;border-radius:28px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,#a3c8ad65,transparent 65%);right:-65px;top:-100px;pointer-events:none}.hero h1{color:#143c31;letter-spacing:-.055em}.hero em{color:#3f8769}.tile,.card,.panel{border-radius:19px}.eyebrow{color:#377259}.footer{background:#eaf0e7}.near-wrap{max-width:1080px;margin:0 auto}.near-hero{padding:34px 36px;border-radius:24px;background:#123d32;color:#f7fff9;display:grid;grid-template-columns:1.6fr 1fr;gap:20px;align-items:center;overflow:hidden}.near-hero h1{font-size:clamp(30px,4vw,52px);line-height:1.04;margin:7px 0 12px;letter-spacing:-.05em}.near-hero p{opacity:.85;max-width:540px}.near-hero .eyebrow{color:#cef28b}.near-network{border:1px solid #86b49a80;background:#ffffff14;border-radius:18px;padding:20px}.near-network strong{display:block;font-size:27px;color:#d3f091}.near-pills{display:flex;flex-wrap:wrap;gap:7px}.near-pill{display:inline-block;background:#e7f1e6;color:#24523b;font-size:12px;font-weight:700;padding:7px 12px;border-radius:30px}.near-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin:20px 0}.near-panel{background:white;border:1px solid #dce8db;border-radius:20px;padding:24px}.near-panel h2{font-size:23px;margin:6px 0 14px}.near-panel p{color:#64776b;line-height:1.6}.near-panel form{display:grid;gap:12px}.near-panel label{display:grid;gap:6px;color:#244637;font-size:13px;font-weight:700}.near-panel input,.near-panel select{width:100%;background:#fafcf8;border:1px solid #cad9ce;border-radius:10px;padding:11px;color:#173f31}.near-panel .btn{max-width:max-content}.near-opp{background:#fff;border:1px solid #dce8db;border-radius:19px;padding:24px;margin-bottom:16px}.near-opp-head{display:flex;justify-content:space-between;gap:16px;align-items:center}.near-status{border-radius:50px;font-weight:700;font-size:11px;background:#e7f1e6;padding:7px 12px;color:#24523b}.near-person{border-top:1px solid #edf1ea;padding:12px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.near-person small{display:block;color:#627e6b}.near-amount{font-size:25px;font-weight:850;letter-spacing:-.04em;color:#153e35}.near-audit{border-left:2px solid #d1e0cb;padding-left:17px;font-size:12px;color:#63756a}.near-muted{color:#6a7e70}.near-warning{background:#fff8e7;color:#755c32;padding:12px;border-radius:10px;font-size:13px}.near-kpis{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.near-kpis span{padding:10px 14px;background:#eff4eb;border-radius:10px;font-size:12px;color:#27523d}.near-actions{display:flex;align-items:end;gap:10px;flex-wrap:wrap}.near-actions label{flex:1;min-width:160px}.near-actions input{min-width:0}.near-hide{display:none}.near-panel select[multiple]{min-height:130px}.near-empty{padding:22px;border:1px dashed #b7d0bd;border-radius:15px;color:#55705c;margin-top:14px}@media(max-width:850px){.near-grid{grid-template-columns:1fr}.near-hero{grid-template-columns:1fr;padding:24px}.near-panel,.near-opp{padding:18px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.001ms!important}}
+
+/* AVORA agent and treasury workspaces */
+.near-command{position:relative;background:linear-gradient(145deg,#fff,#f1f7ee)}
+.near-finance-number{font-size:34px;font-weight:850;color:#184933;letter-spacing:-.04em;margin:10px 0 6px}
+.near-finance-number small{display:block;font-size:13px;font-weight:500;letter-spacing:0;color:#668072}
+.near-safe{border-top:1px solid #dfeadd;padding-top:13px;font-size:13px;color:#39694c!important}
+.near-plan-result{padding:15px;margin-top:13px;background:#e8f5e6;border:1px solid #b6d8b7;border-radius:12px;line-height:1.55}
+.near-plan-result p{margin:8px 0;overflow-wrap:anywhere}.near-plan-result small{color:#527364}
+.near-console-grid{margin-top:0}.near-hero{background:radial-gradient(ellipse at 85% 20%,#2c7955 0%,#123d32 65%)}
+.near-wallet-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border:1px solid #cbe2dc;border-radius:17px;background:#eff9f5;padding:14px 20px;margin:16px 0;color:#24473d}.near-wallet-bar p{margin:4px 0}.near-wallet-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.near-wallet-actions p{flex:1 0 100%}.near-ledger{background:#fff;border:1px solid #dde9e2;border-radius:12px;padding:14px 16px;margin:12px 0}.near-ledger h4{margin:0 0 8px}.near-ledger-line{font-size:12px;border-top:1px solid #ececec;padding:7px 0;overflow-wrap:anywhere}
+
+/* In-app confirmation and independently verified payment receipts */
+.avora-near-modal{position:fixed;inset:0;z-index:99999;background:rgba(11,28,23,.68);display:grid;place-items:center;padding:18px;overflow-y:auto}
+.avora-near-dialog{width:min(590px,100%);max-height:min(92vh,850px);overflow-y:auto;background:#fff;border-radius:22px;padding:clamp(20px,4vw,32px);box-shadow:0 32px 90px rgba(0,0,0,.28);outline:none}
+.avora-near-dialog h2{font-size:clamp(22px,3vw,29px);margin:10px 0;letter-spacing:-.025em;color:#153e35}
+.avora-near-dialog-facts,.avora-verified-receipt dl,.avora-near-result dl{display:grid;gap:0;margin:16px 0;border:1px solid #e1e9e0;border-radius:14px;overflow:hidden}
+.avora-near-dialog-facts>div,.avora-verified-receipt dl>div,.avora-near-result dl>div{display:flex;justify-content:space-between;align-items:start;gap:16px;padding:12px 14px;background:#f8fbf7;border-bottom:1px solid #e5ebe5}
+.avora-near-dialog-facts>div:last-child,.avora-verified-receipt dl>div:last-child,.avora-near-result dl>div:last-child{border-bottom:0}
+.avora-near-dialog dt,.avora-verified-receipt dt,.avora-near-result dt{font-size:12px;color:#627869;min-width:105px}
+.avora-near-dialog dd,.avora-verified-receipt dd,.avora-near-result dd{margin:0;color:#173f31;text-align:right;font-weight:700;overflow-wrap:anywhere;min-width:0}
+.avora-near-ack{display:flex;align-items:flex-start;gap:10px;margin:16px 0;color:#153e35;line-height:1.45;font-weight:600}
+.avora-near-ack input{margin-top:4px;accent-color:#164d3c}
+.avora-near-dialog-buttons{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.avora-near-dialog-buttons button:disabled{opacity:.48;cursor:not-allowed}
+.avora-near-disclaimer{font-size:12px;margin:14px 0 0}
+.avora-near-result{border:1px solid #a2cdae;background:#eff8ec;border-radius:18px;padding:18px 20px;margin:16px 0;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.avora-near-result h3{margin:5px 0 8px;color:#164d3c}.avora-near-result p{margin:5px 0;color:#365b47}
+.avora-near-result dl{margin:9px 0;min-width:min(400px,90vw)}
+.avora-verified-receipts{border-top:1px solid #dae7dc;margin-top:22px;padding-top:16px}
+.avora-verified-receipt{margin:12px 0;padding:18px;border-radius:15px;border:1px solid #acd3b6;background:#f5fbf6}
+.avora-verified-receipt strong{color:#1b6845;font-size:16px}
+.avora-verified-receipt code{overflow-wrap:anywhere;white-space:normal}
+.avora-verified-receipt a{color:#245c45;text-decoration:underline;font-weight:650}
+@media(max-width:600px){.avora-near-dialog-facts>div,.avora-verified-receipt dl>div,.avora-near-result dl>div{display:block}.avora-near-dialog dd,.avora-verified-receipt dd,.avora-near-result dd{text-align:left;margin-top:4px}}
+
+/* AVORA unified, exportable NEAR receipt cards */
+.avora-receipt-card{background:#fff;border:1px solid #d9e8df;border-radius:18px;padding:24px;box-shadow:0 12px 36px rgba(19,57,43,.07);color:#233d34;min-width:0}
+.avora-receipt-card .avora-receipt-head{display:flex;justify-content:space-between;gap:20px;align-items:start;margin-bottom:20px}
+.avora-receipt-card h3{font:700 25px/1.2 Georgia,serif;color:#23463d;margin:6px 0 12px}
+.avora-receipt-status{display:inline-flex;background:#e6f5e9;color:#276448;border-radius:100px;padding:6px 11px;font-size:12px;font-weight:750}
+.avora-receipt-total{text-align:right;white-space:nowrap;background:#f2f7f2;border-radius:14px;padding:13px 16px}
+.avora-receipt-total small{display:block;color:#5e7769;font-size:11px}
+.avora-receipt-total strong{display:block;font-size:21px;letter-spacing:-.03em}
+.avora-receipt-card dl.avora-receipt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px;margin:0}
+.avora-receipt-card .avora-receipt-grid>div{border-bottom:1px solid #e8ede7;padding:11px 0;min-width:0}
+.avora-receipt-card .avora-receipt-grid dt{color:#65796f;font-size:12px}
+.avora-receipt-card .avora-receipt-grid dd{margin:4px 0 0;font-weight:600;overflow-wrap:anywhere}
+.avora-receipt-hash{margin:18px 0;padding:14px;border-radius:10px;background:#f7f9f6;border:1px solid #e6ece5}
+.avora-receipt-hash small{display:block;color:#62776d;margin-bottom:6px}
+.avora-receipt-hash code{overflow-wrap:anywhere;white-space:normal}
+.avora-receipt-actions{display:flex;gap:10px;flex-wrap:wrap}
+.avora-receipt-note{font-size:12px;line-height:1.55;color:#697b6e;margin:15px 0 0}
+@media(max-width:620px){.avora-receipt-card{padding:17px}.avora-receipt-card .avora-receipt-head{flex-direction:column}.avora-receipt-total{text-align:left}.avora-receipt-card dl.avora-receipt-grid{grid-template-columns:1fr}}
+
+/* AVORA unified exportable NEAR receipt cards */
+.avora-receipt-card{background:#fff;border:1px solid #d9e8df;border-radius:18px;padding:24px;box-shadow:0 12px 36px rgba(19,57,43,.07);color:#233d34;min-width:0}
+.avora-receipt-card .avora-receipt-head{display:flex;justify-content:space-between;gap:20px;align-items:start;margin-bottom:20px}
+.avora-receipt-card h3{font:700 25px/1.2 Georgia,serif;color:#23463d;margin:6px 0 12px}
+.avora-receipt-status{display:inline-flex;background:#e6f5e9;color:#276448;border-radius:100px;padding:6px 11px;font-size:12px;font-weight:750}
+.avora-receipt-total{text-align:right;white-space:nowrap;background:#f2f7f2;border-radius:14px;padding:13px 16px}
+.avora-receipt-total small{display:block;color:#5e7769;font-size:11px}
+.avora-receipt-total strong{display:block;font-size:21px;letter-spacing:-.03em}
+.avora-receipt-card dl.avora-receipt-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px;margin:0}
+.avora-receipt-card .avora-receipt-grid>div{border-bottom:1px solid #e8ede7;padding:11px 0;min-width:0}
+.avora-receipt-card .avora-receipt-grid dt{color:#65796f;font-size:12px}
+.avora-receipt-card .avora-receipt-grid dd{margin:4px 0 0;font-weight:600;overflow-wrap:anywhere}
+.avora-receipt-hash{margin:18px 0;padding:14px;border-radius:10px;background:#f7f9f6;border:1px solid #e6ece5}
+.avora-receipt-hash small{display:block;color:#62776d;margin-bottom:6px}
+.avora-receipt-hash code{overflow-wrap:anywhere;white-space:normal}
+.avora-receipt-actions{display:flex;gap:10px;flex-wrap:wrap}
+.avora-receipt-note{font-size:12px;line-height:1.55;color:#697b6e;margin:15px 0 0}
+@media(max-width:620px){.avora-receipt-card{padding:17px}.avora-receipt-card .avora-receipt-head{flex-direction:column}.avora-receipt-total{text-align:left}.avora-receipt-card dl.avora-receipt-grid{grid-template-columns:1fr}}
+
+/* Structured, safe AI explanations: never output raw model HTML. */
+.avora-ai-markdown{max-width:100%;min-width:0;margin:14px 0 10px;color:inherit;font-size:.94rem;line-height:1.65;overflow-wrap:anywhere}
+.avora-ai-markdown h3,.avora-ai-markdown h4,.avora-ai-markdown h5{font-size:1rem;line-height:1.4;margin:18px 0 8px;color:#173c35;font-weight:700}
+.avora-ai-markdown h3:first-child,.avora-ai-markdown p:first-child{margin-top:0}
+.avora-ai-markdown p{margin:10px 0}
+.avora-ai-markdown ul,.avora-ai-markdown ol{padding-left:1.35rem;margin:10px 0}
+.avora-ai-markdown li{margin:6px 0}
+.avora-ai-table-scroll{overflow-x:auto;width:100%;margin:14px 0;border:1px solid #d4e2db;border-radius:10px}
+.avora-ai-markdown table{border-collapse:collapse;width:100%;min-width:420px;font-size:.87rem}
+.avora-ai-markdown th{background:#edf5ef;color:#194a3d;text-align:left;font-weight:700}
+.avora-ai-markdown th,.avora-ai-markdown td{border-bottom:1px solid #e3ece7;padding:11px 12px;vertical-align:top}
+.avora-ai-markdown tbody tr:last-child td{border-bottom:0}
+.avora-ai-markdown pre{white-space:pre-wrap;overflow-x:auto;padding:12px;border-radius:8px;background:#f2f6f3}
+.avora-ai-markdown code{padding:1px 4px;background:#edf3ef;border-radius:4px;font-size:.88em}
