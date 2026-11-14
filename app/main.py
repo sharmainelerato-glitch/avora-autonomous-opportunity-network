@@ -15,7 +15,7 @@ from pydantic import BaseModel, Field, field_validator
 
 ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / '.env')
-DB = Path(os.getenv('LAPENG_DB', str(ROOT/'avora.sqlite3')))
+DB = Path(os.getenv('AVORA_DB', str(ROOT/'avora.sqlite3')))
 if not DB.is_absolute(): DB = ROOT/DB
 app=FastAPI(title='AVORA — Human-centred Commerce', version='0.9.1-hardened', docs_url=None, redoc_url=None, openapi_url=None)
 # Single-process local/demo rate limiting. Use Redis/edge WAF in production/multiple workers.

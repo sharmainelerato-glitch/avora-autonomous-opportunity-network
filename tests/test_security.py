@@ -10,15 +10,15 @@ def test_security_headers_and_origin():
     assert client.post('/api/auth/register',data='X'*65537,headers={'Content-Type':'application/json'}).status_code==413
 
 def test_logout_revokes_session():
-    h=auth('Logout Test','logout@lapeng.test')
+    h=auth('Logout Test','logout@AVORA.test')
     assert client.get('/api/me',headers=h).status_code==200
     assert client.post('/api/auth/logout',headers=h).status_code==200
     assert client.get('/api/me',headers=h).status_code==401
 
 def test_quote_confidentiality_and_guardian_access():
-    buyer=auth('Privacy Buyer','privatebuyer@lapeng.test')
-    seller=auth('Privacy Seller','privateseller@lapeng.test')
-    stranger=auth('Privacy Stranger','privatestranger@lapeng.test')
+    buyer=auth('Privacy Buyer','privatebuyer@AVORA.test')
+    seller=auth('Privacy Seller','privateseller@AVORA.test')
+    stranger=auth('Privacy Stranger','privatestranger@AVORA.test')
     p=client.post('/api/providers',headers=seller,json={'name':'Private Dev','category':'Web development','city':'Cape Town','country':'South Africa','bio':'Private independent web development services','skills':'website,react','price':150,'capacity':10}).json()['id']
     r=client.post('/api/requests',headers=buyer,json={'title':'A private website request','description':'Build a responsive website for a new community workshop','budget':2000,'quantity':1}).json()['id']
     q=client.post(f'/api/requests/{r}/proposals',headers=seller,json={'provider_id':p,'amount':1425,'note':'Private negotiated quote'}).json()['id']
@@ -34,5 +34,5 @@ def test_quote_confidentiality_and_guardian_access():
     assert client.post(f'/api/requests/{r}/proposals',headers=seller,json={'provider_id':p,'amount':900,'note':'Late second quote'}).status_code==409
 
 def test_report_target_exists():
-    h=auth('Reporter','reporter@lapeng.test')
+    h=auth('Reporter','reporter@AVORA.test')
     assert client.post('/api/reports',headers=h,json={'target_type':'provider','target_id':999999999,'reason':'Need someone to investigate this listing'}).status_code==404

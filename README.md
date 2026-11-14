@@ -102,7 +102,7 @@ See [`docs/JUDGE_GUIDE.md`](docs/JUDGE_GUIDE.md), [`docs/PROTOTYPE_SCOPE.md`](do
 - On-chain NEAR transfers are **irreversible**. A refund is a new authorized transfer back to the original payer, not a reversal of the original transaction.
 - No live mainnet checkout, contract escrow, automated treasury custody, fiat-to-NEAR conversion, guaranteed live carrier fulfillment, government ID verification, or fully synchronized calendar is claimed.
 - AI recommendations must not be taken as verified facts. External providers, prices, dates, and availability require independent confirmation.
-- This AVORA hackathon project adapts an earlier **LAPENG** marketplace foundation developed for a different event and adds NEAR-specific autonomous planning, consent and verification workflows. The reused foundation is openly acknowledged.
+- AVORA builds on an earlier marketplace prototype, extended with NEAR-specific autonomous planning, consent and verifiable payment workflows.
 
 ## Submission
 
@@ -110,4 +110,4 @@ See [`docs/JUDGE_GUIDE.md`](docs/JUDGE_GUIDE.md), [`docs/PROTOTYPE_SCOPE.md`](do
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE). Credit for the original LAPENG-derived marketplace foundation is retained.
+MIT — see [`LICENSE`](LICENSE). The project uses the MIT license; see LICENSE for applicable attribution.

@@ -18,4 +18,4 @@
 
 ## Origin
 
-This repository includes portions of an earlier LAPENG marketplace foundation, adapted for the NEAR Hackathon as AVORA. The hackathon-specific NEAR payments, bounded AI planning and consent workflows are additional development. The LICENSE applies.
+This repository includes portions of an earlier marketplace prototype, adapted for the NEAR Hackathon as AVORA. The hackathon-specific NEAR payments, bounded AI planning and consent workflows are additional development. The LICENSE applies.

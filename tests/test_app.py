@@ -1,8 +1,8 @@
 import os, tempfile
 from pathlib import Path
-DB_PATH=Path(tempfile.gettempdir())/'lapeng_pytest_unique.sqlite3'
+DB_PATH=Path(tempfile.gettempdir())/'AVORA_pytest_unique.sqlite3'
 if DB_PATH.exists():DB_PATH.unlink()
-os.environ['LAPENG_DB']=str(DB_PATH)
+os.environ['AVORA_DB']=str(DB_PATH)
 from fastapi.testclient import TestClient
 from app.main import app,assemble,candidate_score
 client=TestClient(app)
